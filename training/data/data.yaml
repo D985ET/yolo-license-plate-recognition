@@ -1,0 +1,13 @@
+train: D:\Mérnökinfó\3. félév\grafika python\license plate\training\data\train\images
+val: D:\Mérnökinfó\3. félév\grafika python\license plate\training\data\valid\images
+test: D:\Mérnökinfó\3. félév\grafika python\license plate\training\data\test\images
+
+nc: 1
+names: ['licence']
+
+roboflow:
+  workspace: car-speed-estimation
+  project: lph_yv9
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/car-speed-estimation/lph_yv9/dataset/1
